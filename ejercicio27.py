@@ -4,6 +4,7 @@ nomina_aum = 0
 nomina_sueldo = 0
 I = 1
 for x in range (3):
+    print("")
     nombre = str(input("Ingrese su nombre: "))
     codigo = str(input("Ingrese su codigo: "))
     sueldo = float(input("Ingrese su sueldo: "))
@@ -23,4 +24,6 @@ for x in range (3):
     nomina_sueldo = nomina_sueldo + Nsueldo
     I+=1
     print("El total de aumentos es: ", nomina_aum)
+    print("")
     print("El total de nomina es: ", nomina_sueldo)
+    print("")
