@@ -12,13 +12,16 @@ while resp == "si":
         descuento = compra * 0.4
         tcd = compra - descuento
     elif color == "amarillo":
-        descuento = compra *0.25
+        descuento = compra * 0.25
+        tcd = compra - descuento
+    else:
+        descuento = compra * 0.1
         tcd = compra - descuento
     print(nombre)
     print("")
     print("Su total con descuento es: ", tcd)
     print("")
-    print("Su descuento es de: ",descuento)
+    print("Su descuento es de: ", descuento)
     print("")
     print("-Si desea agregar otro cliente responda si: \n-Si desea terminar responda no: \n")
     resp = input("")
