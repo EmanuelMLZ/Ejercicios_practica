@@ -1,0 +1,2 @@
+numeros_ganadores = ["50", "30", "80", "21", "93", "15"]
+print("Los numeros ganadores de la loteria son: ", numeros_ganadores[5],numeros_ganadores[3], numeros_ganadores[1], numeros_ganadores[0], numeros_ganadores[2], numeros_ganadores[4])
